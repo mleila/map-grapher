@@ -46,6 +46,6 @@ print(matrix)
 
 save the map as a png file
 ```python
-fig = plot_map(colored_map, 'Arizona')
+fig = plot_map(arizona, 'Arizona')
 save_to_file (fig, 'arizona')
 ```
