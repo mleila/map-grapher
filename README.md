@@ -6,7 +6,7 @@ Coloring maps is a famous application of the vertex cologing problem. Maps can b
 This package provides an easy interface to model US national and state maps as an undirected graph represented by an adjacency matrix. The graph model can be passed to an external solver to obtain a solution. The package will then reconstruct a colored map from the solution.
 
 # Install
-```python
+```bash
 pip install -e map-grapher
 ```
 
