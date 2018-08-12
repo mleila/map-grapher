@@ -1,5 +1,5 @@
 # map_grapher
-Vertex Coloring is a well known problem in Operations Research where the goal is to find the minimum number of colores required to color vertices of an unidrected graph such that no two adjacent vertices have the same color.
+Vertex Coloring is a well known problem in Operations Research where the goal is to find the minimum number of colores required to color vertices of an undirected graph such that no two adjacent vertices have the same color.
 
 Coloring maps is a famous application of the vertex cologing problem. Maps can be modeled as undirected graph where vertices represent bordered entities. If two entities are adjacent in the map, their corresponding vertices are connected by an edge.
 
