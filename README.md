@@ -7,6 +7,7 @@ This package provides an easy interface to model US national and state maps as a
 
 # Install
 ```bash
+git clone https://github.com/mleila/map-grapher
 pip install -e map-grapher
 ```
 
