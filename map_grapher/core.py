@@ -69,7 +69,7 @@ def color_map(data, vertex_color_pairs):
         feat['properties']['color'] = color
     return data
 
-def plot_map(data, map_name):
+def plot_map(data, map_title):
     fig, ax = plt.subplots(figsize=(8, 8))
     features = data['features']
     shapes = [shape(feat['geometry']) for feat in data['features']]
@@ -82,7 +82,7 @@ def plot_map(data, map_name):
     ax.relim()
     ax.autoscale()
     ax.axis('off')
-    ax.set_title('Map of '+map_name)
+    ax.set_title(map_title)
     return fig
 
 def save_to_file(fig, fname):
